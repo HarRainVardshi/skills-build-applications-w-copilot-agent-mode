@@ -28,7 +28,7 @@ function App() {
             Browse users, teams, workouts, and activity insights from the API tier.
           </p>
           <div className="alert alert-info mb-0">
-            Define <strong>VITE_CODESPACE_NAME</strong> in <strong>.env.local</strong> for Codespaces URLs. When it is not set, the app falls back to localhost.
+            The app automatically detects Codespaces URLs and falls back to localhost when you are running locally.
           </div>
           {codespaceName ? (
             <p className="text-muted mt-3 mb-0">Codespaces target: {codespaceName}</p>
